@@ -1,0 +1,81 @@
+https://github.com/Aa54035/React_JS_repo.git
+
+    1  yum install git -y
+    2  git
+    3  git --version
+    4  git clone https://github.com/satyam88/makemyplan.git
+    5  ls -ltr
+    6  cd makemyplan/
+    7  ls -ltr
+    8  git branch
+    9  git checkout -b stagingref
+   10  git branch
+   11  git checkout -b staging
+   12  git branch
+   13  git checkout -b development
+   14  git branch
+   15  git status
+   16  ll
+   17  git branch
+   18  mkdir deployment
+   19  mkdir testing
+   20  mkdir src
+   21  git status
+   22  cat > pom.xml
+   23  git branch
+   24  ls -ltr
+   25  cd deployment/
+   26  ll
+   27  mkdir test
+   28  mkdir dev
+   29  mkdir staging
+   30  mkdir stagingref
+   31  mkdir production
+   32  git status
+   33  git add --all
+   34  git status
+   35  git commit -m "coderefactor"
+   36  git push origin development:development
+   37  git branch
+   38  git checkout staging
+   39  git branch
+   40  touch abab kdkksd dssdod idsids idsos;ls
+   41  git add --all
+   42  git commit -m "update"
+   43  git push origin staging:staging
+   44  git config credential.helper store
+   45  git push origin staging:staging
+   46  touch abbababa
+   47  git add --all
+   48  git commit -m "update"
+   49  git push origin staging:staging
+   65  java -version
+   66  alternatives --config java
+   67  yum install -y git  java-1.8.0-openjdk-devel aws-cli
+   68  alternatives --config java
+   69  java -version
+   70  alternatives --config java
+   71  java -version
+   72  wget http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-m                   aven.repo -O /etc/y
+   73  ls -ltr
+   74  ls -ltr
+   75  ls -ld /etc/y
+   76  sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
+   77  wget http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-m                   aven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
+   78  ls -ltr
+   79  sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
+   80  yum repolist
+   81   yum install -y apache-maven
+   82  mvn --version
+   83  git --version
+   84  java --version
+   85  java -version
+   86  wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/je                   nkins.repo
+   87  ls -ltr
+   88  rpm --import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key
+   89   yum install jenkins -y
+   90  service jenkins restart
+   91  chkconfig jemkins on
+   92  chkconfig jenkins on
+   93  ps -ef | grep 8080
+   94  cat /var/lib/jenkins/secrets/initialAdminPassword
